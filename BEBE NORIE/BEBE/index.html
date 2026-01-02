@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEBE NORIE</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+   
+    <img class="bubu" src="bubu.png" alt="">
+    
+    <h1 class="h1">ALL ABOUT US ^^</h1>
+    <h2 class="h2">-PICTURES-</h2>
+    <h2 class="h3">-MESSAGES-</h2>
+    
+
+        <div>
+        <img class="pic1" src="pic1.png" alt="">
+        <img class="pic2" src="pic2.png" alt="">
+        <img class="pic3" src="pic3.png" alt="">
+        <img class="pic4" src="pic4.png" alt="">
+        <img class="pic5" src="pic5.png" alt="">
+        <img class="pic6" src="pic6.png" alt="">
+        <img class="pic7" src="pic7.png" alt="">
+        <img class="pic8" src="pic8.png" alt="">
+        <img class="pic9" src="pic9.png" alt="">
+        <img class="pic10" src="pic10.png" alt="">
+        <img class="pic11" src="pic11.png" alt="">
+        <img class="pic12" src="pic12.png" alt="">
+        <img class="pic13" src="pic13.png" alt="">
+        <img class="pic14" src="pic14.png" alt="">
+        <img class="pic15" src="pic15.png" alt="">
+        <img class="pic16" src="pic16.png" alt="">
+        <img class="pic17" src="pic17.png" alt="">
+       
+    
+
+        </div>
+
+
+        <div id="imgModal" class="modal">
+  <img id="modalImg">
+</div>
+
+
+<div>
+
+  <input type="checkbox" id="pop">
+  <label for="pop" class="p1">Bes!! HUHU anla gagi ka naiiyak ako😭 aaaaa HUHU anue ba first time <br> lng kase akong naka receive ng letter tapos ikw pa nag bigay HUHU <br>arggg iingatan ko to Promise 🌷 HUHU soafer appreciated bes😭 aa <br>natutuwa ako na naiiyak ay I wish I can hug you. BEST GIFT EVER<br> NA NATANGGAP KO Thanksmuchhhhhh Bebe, Bes, bff, meddler ko ^^<br>yung bracelet ko hdi ko na huhubarin yan HAHA kahit anong mangyari<br> also I'm so happy too bcoz meron akong kaibigan na kagaya mo, dabest😩<br> Thanksmuchhhhhh againnn!!! I LOVE YOU SO MUCH as a friend😙<br> Always take care ah and If you have problems, andito ako always never<br> kang ijujudge kahit ano pa yan.. tandaan mo yan ahh😙Mwaaa!!!</label>
+  
+</div>
+
+
+
+
+
+
+
+
+
+<script>
+const modal = document.getElementById("imgModal");
+const modalImg = document.getElementById("modalImg");
+
+document.querySelectorAll("img").forEach(img => {
+  img.addEventListener("click", () => {
+    modal.style.display = "flex";
+    modalImg.src = img.src;
+  });
+});
+
+modal.addEventListener("click", () => {
+  modal.style.display = "none";
+});
+
+
+</script>
+
+
+
+</body>
+</html>
