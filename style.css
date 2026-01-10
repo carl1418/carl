@@ -289,27 +289,167 @@ img {
     border-radius: 20px; 
     box-shadow: 0 0 30px  rgb(153, 28, 255);
     padding: 20px;
-    display: inline-block;
-    cursor: pointer;
-    transition: transform 0.4s ease;
-    transform-origin: center;
+    max-width: 480px;  
+    width: 100%;
+    margin: 20px auto;
+    
 }
 
-@keyframes pop {
-  from {
-    transform: scale(0.5);
-    opacity: 0;
-  }
-  to {
-    transform: scale(1);
-    opacity: 1;
-  }
+.p2 {
+    position: absolute;
+    left: 105vh;
+    top: 155vh;
+    background-color: rgb(213, 150, 255);
+    border: 10px solid rgb(213, 150, 255);
+    border-width: 20px;
+    text-align: justify;
+    text-justify: inter-word;  
+    border-radius: 20px; 
+    box-shadow: 0 0 30px  rgb(153, 28, 255);
+    padding: 20px;
+    max-width: 480px;  
+    width: 100%;
+    margin: 20px auto;
+    
+    
 }
 
-#pop:checked + .p1 {
-  transform: scale(1.5);
+.p3 {
+    position: absolute;
+    left: 30vh;
+    top: 195vh;
+    background-color: rgb(213, 150, 255);
+    border: 10px solid rgb(213, 150, 255);
+    border-width: 20px;
+    text-align: justify;
+    text-justify: inter-word;  
+    border-radius: 20px; 
+    box-shadow: 0 0 30px  rgb(153, 28, 255);
+    padding: 20px;
+    max-width: 480px;  
+    width: 100%;
+    margin: 20px auto;
+    
 }
 
-#pop {
-  display: none;
+.p4 {
+    position: absolute;
+    left: 105vh;
+    top: 178vh;
+    background-color: rgb(213, 150, 255);
+    border: 10px solid rgb(213, 150, 255);
+    border-width: 20px;
+    text-align: justify;
+    text-justify: inter-word;  
+    border-radius: 20px; 
+    box-shadow: 0 0 30px  rgb(153, 28, 255);
+    padding: 20px;
+    max-width: 480px;  
+    width: 100%;
+    margin: 20px auto;
+}
+
+.p5 {
+    position: absolute;
+    left: 105vh;
+    top: 223vh;
+    background-color: rgb(213, 150, 255);
+    border: 10px solid rgb(213, 150, 255);
+    border-width: 20px;
+    text-align: justify;
+    text-justify: inter-word;  
+    border-radius: 20px; 
+    box-shadow: 0 0 30px  rgb(153, 28, 255);
+    padding: 20px;
+    max-width: 480px;  
+    width: 100%;
+    margin: 20px auto;
+}
+
+.p6 {
+    position: absolute;
+    left: 105vh;
+    top: 247vh;
+    background-color: rgb(213, 150, 255);
+    border: 10px solid rgb(213, 150, 255);
+    border-width: 20px;
+    text-align: justify;
+    text-justify: inter-word;  
+    border-radius: 20px; 
+    box-shadow: 0 0 30px  rgb(153, 28, 255);
+    padding: 20px;
+    max-width: 480px;  
+    width: 100%;
+    margin: 20px auto;
+}
+
+.p7 {
+    position: absolute;
+    left: 30vh;
+    top: 282vh;
+    background-color: rgb(213, 150, 255);
+    border: 10px solid rgb(213, 150, 255);
+    border-width: 20px;
+    text-align: justify;
+    text-justify: inter-word;  
+    border-radius: 20px; 
+    box-shadow: 0 0 30px  rgb(153, 28, 255);
+    padding: 20px;
+    max-width: 480px;  
+    width: 100%;
+    margin: 20px auto;
+    
+}
+
+.p8 {
+    position: absolute;
+    left: 30vh;
+    top: 464vh;
+    background-color: rgb(213, 150, 255);
+    border: 10px solid rgb(213, 150, 255);
+    border-width: 20px;
+    text-align: justify;
+    text-justify: inter-word;  
+    border-radius: 20px; 
+    box-shadow: 0 0 30px  rgb(153, 28, 255);
+    padding: 20px;
+    max-width: 480px;  
+    width: 100%;
+    margin: 20px auto;
+    
+}
+
+.p9 {
+    position: absolute;
+    left: 105vh;
+    top: 282vh;
+    background-color: rgb(213, 150, 255);
+    border: 10px solid rgb(213, 150, 255);
+    border-width: 20px;
+    text-align: justify;
+    text-justify: inter-word;  
+    border-radius: 20px; 
+    box-shadow: 0 0 30px  rgb(153, 28, 255);
+    padding: 20px;
+    max-width: 480px;  
+    width: 100%;
+    margin: 20px auto;
+}
+
+.p10 {
+    position: absolute;
+    left: 30vh;
+    top: 614vh;
+    background-color: rgb(213, 150, 255);
+    border: 10px solid rgb(213, 150, 255);
+    border-width: 20px;
+    text-align: justify;
+    text-justify: inter-word;  
+    border-radius: 20px; 
+    box-shadow: 0 0 30px  rgb(153, 28, 255);
+    padding: 20px;
+    max-width: 480px;  
+    width: 100%;
+    margin: 20px auto;
+    
 }
